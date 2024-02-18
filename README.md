@@ -5,7 +5,8 @@ My desktop config using Arch w/ KDE Plasma. Currently main desktop in use but al
 ## Workflow Demo
 ![](./assets/demo.gif)
 
-Before I was not used to tiling hence why I didn't use a tiling manager and mainly used floating mode, but I did setup very basic manual tiling as shown above. I use dual monitor (not shown in demo gif) so most of the secondary windows go there (like chats, documentations, etc).
+Before I was not used to tiling but I did setup very basic manual tiling as shown above. I use dual monitor (not shown in demo gif) so most of the secondary windows go there (like chats, documentations, etc).
+
 
 ## System Info
 - OS: Arch
@@ -26,6 +27,13 @@ Before I was not used to tiling hence why I didn't use a tiling manager and main
         - Better inline clock
         - Justify Splitter
         - System Tray
+- Terminal: Konsole
+    - Color Scheme: Catppuccin
+    - Prompt: Starship
+    - Starship theme: see `starship/starship.toml` (taken from one of the [presets](https://starship.rs/presets/#nerd-font-symbols))
+- File Manager: Dolphin
+
+Other applications I use are listed [here](https://github.com/jamesyoung-15/nix-os-configs?tab=readme-ov-file#my-other-commonly-used-applications).
 
 ## Configs
 The `plasma` and `color-schemes` folder goes into `~/.local/share`. These are where the `Appearance` stuff in the `KDE system settings application` are stored in.
